@@ -10,6 +10,8 @@ class Class{
 
     public Student[] Students;
 
+    // Student[] Students = new Student[n];
+
     public Class(int n){
 
         this.Students = new Student[n];
