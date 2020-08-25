@@ -36,11 +36,13 @@ class Solution {
 
         ListNode newNode = new ListNode(val);
 
-        ListNode temp = curr.next;
+        // ListNode temp = curr.next;
 
-        if (curr.next != null) {
-            newNode.next = temp;
-        }
+        // if (curr.next != null) {
+        //     newNode.next = temp;
+        // }
+
+        newNode.next = curr.next;
         curr.next = newNode;
 
 
