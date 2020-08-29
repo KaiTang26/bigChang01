@@ -33,6 +33,37 @@ public class Main {
     }
 
 
+     public static TreeNode insertNode_2(TreeNode root, TreeNode node){
+
+        TreeNode father = null;
+
+        TreeNode curr = root;
+
+        if(root==null){
+            return node;
+        }
+
+        while(curr != null){
+            father = curr;
+            System.out.println(curr.val);
+            if(node.val > curr.val){
+                curr = curr.right;
+            }else{
+                curr = curr.left;
+            }
+        }
+
+        if(node.val > father.val){
+            father.right = node;
+        }else{
+            father.left = node;
+        }
+
+        return root;
+
+    }
+
+
 }
 
 
