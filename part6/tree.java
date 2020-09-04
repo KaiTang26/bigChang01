@@ -33,6 +33,8 @@ public class Main{
         if(node == null){
             return;
         }
+
+        
         inorderPrint(node.left);
         System.out.println(node.value);
         inorderPrint(node.right);
