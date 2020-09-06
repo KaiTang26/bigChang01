@@ -22,6 +22,26 @@ class Solution {
 }
 
 
+// class Solution {
+//     public int removeElement(int[] nums, int val) {
+
+//         int lastIndexOfReturnArray = 0;
+//         for(int i=0; i<nums.length; i++){
+
+//             if(nums[i]!=val){
+//                 nums[lastIndexOfReturnArray] = nums[i];
+//                 lastIndexOfReturnArray++;
+//             }
+
+//         }
+
+//         return lastIndexOfReturnArray;
+
+
+//     }
+// }
+
+
 // Time complexity: O(n)
 // Space complexity: O(1)
 // slow and fast pointer: slow one (new array last element), fast one

@@ -30,6 +30,9 @@ class Solution {
 
         int lastIndexOfReturnArray = 2;
         for(int i=2; i<nums.length; i++){
+            System.out.println("j :"+i);
+            System.out.println("i :"+lastIndexOfReturnArray );
+            System.out.println("********************");
             if(nums[lastIndexOfReturnArray-2] != nums[i]){
 
                 nums[lastIndexOfReturnArray]=nums[i];
