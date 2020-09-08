@@ -1,3 +1,5 @@
+
+// one map O(M) (time) O(k) (k=26 space)
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
 
